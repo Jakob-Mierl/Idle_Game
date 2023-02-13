@@ -1,8 +1,22 @@
 body {
-  padding: 50px;
+  background-color: #111014;
+  color:#ffffff;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+#clicks {
+  color: #b05050;
+  font-size: x-large;
+}
+
+#topDiv {
+  margin: auto;
+  width: auto;
+  text-align: center;
+  border-bottom: 3px green solid;
+}
+
+#centerDiv {
+  padding-top: 10px;
+  text-align: center;
 }

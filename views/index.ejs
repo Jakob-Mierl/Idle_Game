@@ -7,8 +7,17 @@
     <title>Idle_Game</title>
 </head>
 <body>
-    <p>Clicks: <a id="clicks">0</a></p>
-    <button type="button" onClick="onClick()">Click me</button>
-    <script src="javascripts/scripts.js"></script>
+    <div id="page">
+        <div id="topDiv">
+            <p>You have <a id="clicks">0</a> clicks.</p>
+            <p>You are getting <a id="autoClicks">0</a> clicks per second.</p>
+        </div>
+        <div id="centerDiv">
+            <button type="button" onClick="onClick()">Click me</button>
+            <button type="button" onClick="autoClick()">Auto Clicker<br>Cost: 10 clicks</button>
+            <button type="button" onClick="stop()">Stop</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="javascripts/scripts.js"></script>
 </body>
 </html>
